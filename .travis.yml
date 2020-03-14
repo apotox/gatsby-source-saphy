@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+- '12.13'
+deploy:
+  provider: npm
+  email: saphidev@gmail.com
+  api_key: Lj63cD20/HrjvJBjPKcMJxgBLrJMT2weumQYH8OfEOIYlYIUPOhi7x0aai+Y9fNoeqAOjwogr/+GIysFJ/9unCoUvC1V+XvstCNzhhP9ZlNir3YZD4omH/xmBtU7p+XnXfWLlYq/PDzCZWaAwc4gGv2Lr5M+Oz/i8vf4tCD0jxFy8lYmXcr5MsXJQv6X8UVSgebL+5WwEQnRwMeCANCve3KgiXkkkDLkbaFAiHmkS4FxAtNkXX0a2Bg3B4/Xyl/2/W8qaBLfUDNyvVGaayxMEePSuTiz/9+oc/QtGZvZTW07McRjMp0CNkhq9P8C39vs5Q/s5oEY2NjTXB2UGWV+mFr8q1vb/8LdLZjwL18dHHqf4swLGk3E9lYIWU+zcUgtz5j6XsGj4kRCXLh7EIj5XlyIlYnTXnCttxXVgGUWj+rR6V0u116onv9sbjmpTKNSTSVJuSVMUFN+KsVf5Y1Ur4aMQIN4Rbdwe8poptkGYfvwSZaFZXG6hS7S0w/ulw3NlGAf5FAEXlzMf+4Q+STlJ4JRVkxVfelw7yg3sBIohDWkN8iBcE/OFAPAlby/XvTpZwfIf+i4gy2M6lkrowohG7b5OMRTQW4+yyRtf/zbTKJapPNx9GGrt3Ciluye2VQuIlSIgChJVz51T1xLi2BVxsE2lTIEWwxDj4uLa+u7CfE=

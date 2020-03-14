@@ -1,11 +1,11 @@
 const fetch = require("node-fetch");
-
+//dgdfgdfg
 exports.sourceNodes = async ({ actions,createNodeId,createContentDigest }) => {
  
     const { createNode } = actions
     // Create nodes here, generally by downloading data
     // from a remote API.
-    const resp = await fetch(`https://5e676a591937020016fedbeb.mockapi.io/api/products`)
+    const resp = await fetch(`https://happy-colden-65fff2.netlify.com/.netlify/functions/listProducts?key=${process.env.SAPHY_KEY}`)
     const data = await resp.json()
 
 

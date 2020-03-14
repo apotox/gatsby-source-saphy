@@ -5,7 +5,7 @@
   "main": "gatsby-node.js",
   "scripts": {
     "build": "webpack --mode production",
-    "prepare" : "npm run build"
+    "prepare": "npm run build"
   },
   "author": "saphidev@gmail.com",
   "license": "MIT",
@@ -14,6 +14,7 @@
     "@babel/preset-env": "^7.8.3",
     "babel-loader": "^8.0.6",
     "webpack": "^4.41.5",
+    "webpack-auto-inject-version": "^1.2.2",
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {

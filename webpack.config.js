@@ -1,6 +1,8 @@
 
 const path = require("path")
 
+
+
 module.exports = {
   entry: './src/gatsby-node.js',
 
@@ -19,6 +21,8 @@ module.exports = {
           loader: "babel-loader"
         }
       }
-    ]
-  }
+    ],
+    
+  },
+  plugins: []
 };
