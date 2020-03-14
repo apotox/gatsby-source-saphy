@@ -5,7 +5,7 @@ const path = require("path")
 
 module.exports = {
   entry: './src/gatsby-node.js',
-
+  target: 'node',
   output: {
     path: path.resolve('./'),
     filename: 'gatsby-node.js',
