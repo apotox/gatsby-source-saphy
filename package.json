@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-source-saphy",
+  "version": "1.0.2",
+  "description": "import products from saphy.net saas",
+  "main": "gatsby-node.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "author": "saphidev@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "repository": "https://github.com/apotox/gatsby-source-saphy"
+}
