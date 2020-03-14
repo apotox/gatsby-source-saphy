@@ -4,7 +4,7 @@ use saphy strore as a source to your gatsbyjs ecommerce website
 
 
 <p align="center"> 
-    <img src="demo/capture.gif">
+    <img src="https://travis-ci.org/apotox/gatsby-source-saphy.svg?branch=master">
 </p>
 
 ### Installation
