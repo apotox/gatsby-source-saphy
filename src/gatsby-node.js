@@ -2,12 +2,12 @@ const fetch = require("node-fetch");
 const api_url = "https://happy-colden-65fff2.netlify.com"
 
 //gatsby
-exports.sourceNodes = async ({ actions,createNodeId,createContentDigest }) => {
+exports.sourceNodes = async ({ actions,createNodeId,createContentDigest },pluginOptions) => {
  
     const { createNode } = actions
     // Create nodes here, generally by downloading data
     // from a remote API.
-    const resp = await fetch(`${api_url}/.netlify/functions/listProducts?key=${process.env.SAPHY_KEY}`)
+    const resp = await fetch(`${api_url}/.netlify/functions/listProducts?key=${pluginOptions.SAPHY_KEY}`)
     const data = await resp.json()
 
 
