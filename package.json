@@ -1,10 +1,11 @@
 {
   "name": "gatsby-source-saphy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "import products from saphy.net saas",
   "main": "gatsby-node.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "prepare" : "npm run build"
   },
   "author": "saphidev@gmail.com",
   "license": "MIT",
