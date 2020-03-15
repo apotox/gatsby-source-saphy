@@ -1,5 +1,6 @@
 src
 .babelrc
 webpack.config.js
+.travis.yml
 demo
 __tests__
