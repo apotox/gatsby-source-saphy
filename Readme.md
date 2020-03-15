@@ -23,7 +23,12 @@ use saphy strore as a source to your gatsbyjs ecommerce website
 ```javascript
     plugins: [
         //...
-        'gatsby-source-saphy',
+        {
+            resolve:'gatsby-source-saphy',
+            options:{
+                SAPHY_KEY:"..."
+            }
+        }
     ]
     
 ```
